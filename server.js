@@ -11,6 +11,7 @@ import connectDB from './config/db.js'
 import cookieParser from 'cookie-parser'
 import cors from "cors"
 
+console.log("Starting the server script...");
 const port  = process.env.PORT || 5000
 
 connectDB()

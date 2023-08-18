@@ -3,13 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "server": "server.js",
-    "start": "nodemon server.js",
-    "client": "npm run dev --prefix frontend",
-    "dashboard": "npm start --prefix dashboard",
-    "dev": "concurrently \"npm run server\" \"npm run dashboard\""
+    "start": "server.js"
   },
   "keywords": [],
   "author": "",
