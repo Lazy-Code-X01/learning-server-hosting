@@ -6,7 +6,8 @@
   "main": "server.js",
   "scripts": {
     "server": "server.js",
-    "start": "server.js"
+    "start": "nodemon server.js",
+    "build": "npm i"
   },
   "keywords": [],
   "author": "",
